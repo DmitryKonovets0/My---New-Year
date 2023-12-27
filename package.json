@@ -1,0 +1,23 @@
+{
+  "name": "new-year",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "webpack": "^5.89.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "gulp-scss": "^1.4.0",
+    "sass": "^1.69.5",
+    "scss": "^0.2.4"
+  },
+  "description": ""
+}
