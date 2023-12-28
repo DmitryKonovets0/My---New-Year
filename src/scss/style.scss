@@ -1,3 +1,16 @@
-h1 {
-  color: green;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+body {
+  position: relative;
+  transition: all 1s;
+  background: #dcdcdc;
+}
+.container{
+  width: 400px;
+}
+
+@import "blocks/text";
+@import "blocks/garland";

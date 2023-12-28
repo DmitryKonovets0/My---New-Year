@@ -1,10 +1,11 @@
 const path = require('path');
 
 module.exports = {
-    entry: 'src/js/script.js',
+    mode: 'development',
+    entry: './src/js/script.js', // Путь к файлу входа должен начинаться с точки, чтобы указать текущий каталог
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'src/js')
+        path: path.resolve(__dirname, 'dist') // Изменено место сохранения сборки
     },
     module: {
         rules: [
