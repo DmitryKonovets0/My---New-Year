@@ -2,15 +2,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+  font-family: 'Merriweather', serif;}
 body {
+  background-color: #dcdcdc;
   position: relative;
   transition: all 1s;
-  background: #dcdcdc;
+
 }
 .container{
   width: 400px;
 }
-
+@import "base/mixin";
 @import "blocks/text";
 @import "blocks/garland";
+@import "blocks/xmas-tree";

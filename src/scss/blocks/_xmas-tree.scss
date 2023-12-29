@@ -1,0 +1,10 @@
+.xmas-tree{
+  opacity: 0;
+  z-index: -3;
+  transition: all 1s;
+  position: absolute;
+  top: 50%;
+  height: 54%;
+  left: 50%;
+  transform: translate(-50%);
+}

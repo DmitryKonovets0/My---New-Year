@@ -1,11 +1,17 @@
-.wrap-for-garland{
-  opacity: 0;
-  position: absolute;
-  top: -5px;
-  transition: all 3s;
 
-  img{
-    width: 11%;
-    margin-left: -3px;
-  }
-}
+  .garland-wrapper{
+    height: 200px;
+    display: flex;
+    opacity: 0;
+    .garland{
+      opacity: 0;
+      position: relative;
+      top: -9%;
+      width: 20%;
+      height: 95%;
+      transition: all 3s;
+      svg{
+        top: -10px;
+        position: relative;
+      }
+  }}
